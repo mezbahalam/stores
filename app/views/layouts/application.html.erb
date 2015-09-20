@@ -10,7 +10,8 @@
 
 <%= render "nav" %>
 <div class="container">
-
+      <%= content_tag :div, notice, class: "alert-success" %>
+      <%= content_tag :div, alert, class: "alert-warning" %>
   <%= yield %>
 
 
