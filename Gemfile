@@ -36,6 +36,7 @@ gem 'country_select'
 group :test do
   gem 'minitest-rails'
   gem 'factory_girl_rails'
+  gem 'better_errors'
 end
 
 group :development do

@@ -12,6 +12,8 @@ Rails.application.routes.draw do
     get  :checkout
   end
 
+  resources :orders, only: [ :index, :show, :create ]
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
