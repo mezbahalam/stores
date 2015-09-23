@@ -48,7 +48,7 @@ Rails.application.configure do
       address: "smtp.gmail.com",  # ENV["SMPT_ADDRESS"],
       port:  587,
       user_name: "mezbah.cps@gmail.com", #ENV["SMPT_USER"],
-      password: "//Moni/62", #ENV["SMPT_PASSWORD"],
+      password: "*********", #ENV["SMPT_PASSWORD"],
       domain: "gmail.com",
       authentication: "plain",
       enable_starttls_auto: true
