@@ -7,8 +7,13 @@
           %li= msg
 
   .field
-    = f.label :name
-    = f.text_field :name
+    = f.label :sqft
+    = f.select :name, options_for_select([ '0-999','1000-9999','10000-99999' ])
+
+  .field
+    = f.label :unit
+    = f.select :qnt, options_for_select([ 1, 2,3,4,5,6 ])
+
   .field
     = f.label :price
     = f.text_field :price
